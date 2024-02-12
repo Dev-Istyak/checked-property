@@ -1,0 +1,19 @@
+body{
+    background-color: #6de388;
+    font-size: medium;
+    
+}
+.poco{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(59, 18, 222);
+}
+.loco{
+    text-align: center;
+    transition: 2s;
+}
+.mloco{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+}
