@@ -14,7 +14,7 @@ mysubmit.onclick=function(){
         subresult.textContent=`you are not subscribed yet`;
     }
     if(visaBtn.checked){
-        paymentresult.textContent=`you are pauing with visa`;
+        paymentresult.textContent=`you are paying with visa card`;
     }
     else if(masterBtn.checked){
         paymentresult.textContent=` you are paying with master card`;
@@ -25,7 +25,7 @@ mysubmit.onclick=function(){
 
     }
     else{
-        paymentresult.textContent=`you have to choose a payment mathod`;
+        paymentresult.textContent=`you have to choose a payment method`;
     }
 
 }
